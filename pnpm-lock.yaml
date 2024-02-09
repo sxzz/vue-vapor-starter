@@ -6,13 +6,13 @@ settings:
 
 dependencies:
   vue:
-    specifier: npm:@vue-vapor/vue@0.20240209.3
-    version: /@vue-vapor/vue@0.20240209.3(@vue-vapor/vue@0.20240209.3)(typescript@5.3.3)
+    specifier: npm:@vue-vapor/vue@3.20240209.0
+    version: /@vue-vapor/vue@3.20240209.0(@vue-vapor/vue@3.20240209.0)(typescript@5.3.3)
 
 devDependencies:
   '@vitejs/plugin-vue':
-    specifier: ^5.0.3
-    version: 5.0.3(@vue-vapor/vue@0.20240209.3)(vite@5.1.1)
+    specifier: ^5.0.4
+    version: 5.0.4(@vue-vapor/vue@3.20240209.0)(vite@5.1.1)
   typescript:
     specifier: ^5.2.2
     version: 5.3.3
@@ -366,15 +366,15 @@ packages:
     resolution: {integrity: sha512-/kYRxGDLWzHOB7q+wtSUQlFrtcdUccpfy+X+9iMBpHK8QLLhx2wIPYuS5DYtR9Wa/YlZAbIovy7qVdB1Aq6Lyw==}
     dev: true
 
-  /@vitejs/plugin-vue@5.0.3(@vue-vapor/vue@0.20240209.3)(vite@5.1.1):
-    resolution: {integrity: sha512-b8S5dVS40rgHdDrw+DQi/xOM9ed+kSRZzfm1T74bMmBDCd8XO87NKlFYInzCtwvtWwXZvo1QxE2OSspTATWrbA==}
+  /@vitejs/plugin-vue@5.0.4(@vue-vapor/vue@3.20240209.0)(vite@5.1.1):
+    resolution: {integrity: sha512-WS3hevEszI6CEVEx28F8RjTX97k3KsrcY6kvTg7+Whm5y3oYvcqzVeGCU3hxSAn4uY2CLCkeokkGKpoctccilQ==}
     engines: {node: ^18.0.0 || >=20.0.0}
     peerDependencies:
       vite: ^5.0.0
       vue: ^3.2.25
     dependencies:
       vite: 5.1.1
-      vue: /@vue-vapor/vue@0.20240209.3(@vue-vapor/vue@0.20240209.3)(typescript@5.3.3)
+      vue: /@vue-vapor/vue@3.20240209.0(@vue-vapor/vue@3.20240209.0)(typescript@5.3.3)
     dev: true
 
   /@volar/language-core@1.11.1:
@@ -396,104 +396,104 @@ packages:
       path-browserify: 1.0.1
     dev: true
 
-  /@vue-vapor/compiler-core@0.20240209.3:
-    resolution: {integrity: sha512-Ir8XAIcRIrlfDvxKgIgUgB+Mqlf0DTFQbQoz+Z0IgF85tOMoSkrcwAxp0tsnwSlEY50ylFW4rc+G6RFqbPAF8A==}
+  /@vue-vapor/compiler-core@3.20240209.0:
+    resolution: {integrity: sha512-0pzhJG623bLtNikP3D3wXcD7oxLES1YQ906oHdWUysIquSnNkkvUCAPToye6L0MYkCribg6RjUkt/nbQE5ql/A==}
     dependencies:
       '@babel/parser': 7.23.9
-      '@vue/shared': /@vue-vapor/shared@0.20240209.3
+      '@vue/shared': /@vue-vapor/shared@3.20240209.0
       entities: 4.5.0
       estree-walker: 2.0.2
       source-map-js: 1.0.2
 
-  /@vue-vapor/compiler-dom@0.20240209.3:
-    resolution: {integrity: sha512-xAuGpU0E1NgnkgVWDlMsphcYyGT6zew0xz0xykRnLox231QmWTtMAh8HKPVv4fvcIiHLCuR6waTztJAK/KuVhw==}
+  /@vue-vapor/compiler-dom@3.20240209.0:
+    resolution: {integrity: sha512-omXL4HRqJkyIs7gWSTmd2MoykxPFNTlSCahouRzRzULGZ+hMei2UFxg31aEKgk84SKT7WbsKTE/nQUD5PEExJQ==}
     dependencies:
-      '@vue/compiler-core': /@vue-vapor/compiler-core@0.20240209.3
-      '@vue/shared': /@vue-vapor/shared@0.20240209.3
+      '@vue/compiler-core': /@vue-vapor/compiler-core@3.20240209.0
+      '@vue/shared': /@vue-vapor/shared@3.20240209.0
 
-  /@vue-vapor/compiler-sfc@0.20240209.3:
-    resolution: {integrity: sha512-DwfB/FbEYTsQTyzntU48iW10+MxMS+7SrBxuWRwgge3DHe8lGhTqpSietbXbOJ3cGU65ChCho77LFgnfl8VROw==}
+  /@vue-vapor/compiler-sfc@3.20240209.0:
+    resolution: {integrity: sha512-2D2zXcZMoOILeq/tXpv67s6kPsAR2ptqKSmplWvT8C9vlfQYepcltQn5TTrDxhRxNLB63kFXJxzT0tttBv6H0A==}
     dependencies:
       '@babel/parser': 7.23.9
-      '@vue/compiler-core': /@vue-vapor/compiler-core@0.20240209.3
-      '@vue/compiler-dom': /@vue-vapor/compiler-dom@0.20240209.3
-      '@vue/compiler-ssr': /@vue-vapor/compiler-ssr@0.20240209.3
-      '@vue/compiler-vapor': /@vue-vapor/compiler-vapor@0.20240209.3
-      '@vue/shared': /@vue-vapor/shared@0.20240209.3
+      '@vue/compiler-core': /@vue-vapor/compiler-core@3.20240209.0
+      '@vue/compiler-dom': /@vue-vapor/compiler-dom@3.20240209.0
+      '@vue/compiler-ssr': /@vue-vapor/compiler-ssr@3.20240209.0
+      '@vue/compiler-vapor': /@vue-vapor/compiler-vapor@3.20240209.0
+      '@vue/shared': /@vue-vapor/shared@3.20240209.0
       estree-walker: 2.0.2
       magic-string: 0.30.7
       postcss: 8.4.35
       source-map-js: 1.0.2
 
-  /@vue-vapor/compiler-ssr@0.20240209.3:
-    resolution: {integrity: sha512-+ERLz3nJcWaHGQ+aOdtieE0igEy27vXkYW8airWE4iFO2mamlWgYLdIl6KIYReM0G23HHz9Hi5S1Bdwow/5qhg==}
+  /@vue-vapor/compiler-ssr@3.20240209.0:
+    resolution: {integrity: sha512-NfJuRgkDay25DfhF8sfr71N4clvoJ296AJWyy1tiygxGfAX4ymuVeuXQ5vaD9ddY7WqbM/3/jI3hKednm++Y0Q==}
     dependencies:
-      '@vue/compiler-dom': /@vue-vapor/compiler-dom@0.20240209.3
-      '@vue/shared': /@vue-vapor/shared@0.20240209.3
+      '@vue/compiler-dom': /@vue-vapor/compiler-dom@3.20240209.0
+      '@vue/shared': /@vue-vapor/shared@3.20240209.0
 
-  /@vue-vapor/compiler-vapor@0.20240209.3:
-    resolution: {integrity: sha512-Kjl5TWeSYWb9pzMp3Zo9m4p3v2fVQzixiaXwx1jfmIG7wasJdk8bW6n3JLDu4hRK11mzy6QtzXklG+1bOcDbMA==}
+  /@vue-vapor/compiler-vapor@3.20240209.0:
+    resolution: {integrity: sha512-/ETK4EJT6ku0NDh/1I3PQ88EzrlQHYtRrO3NNJ3SoNIukZInv/Hf8FflyvI9X6ZGqKIfpE+QEdstTJaXR7KFrg==}
     dependencies:
-      '@vue/compiler-dom': /@vue-vapor/compiler-dom@0.20240209.3
-      '@vue/shared': /@vue-vapor/shared@0.20240209.3
+      '@vue/compiler-dom': /@vue-vapor/compiler-dom@3.20240209.0
+      '@vue/shared': /@vue-vapor/shared@3.20240209.0
       source-map-js: 1.0.2
 
-  /@vue-vapor/reactivity@0.20240209.3:
-    resolution: {integrity: sha512-Dga+VR4u74hN/gy8tp+U4K+956Yd0lgP1sENSUbdLPaY/LPBLLvTYbC2uWaho+mqQM7ytgu6PyGTuG8TKAnzLg==}
+  /@vue-vapor/reactivity@3.20240209.0:
+    resolution: {integrity: sha512-WlLTuhzL/9vCFRu/ChCMI+vofl+cJmoAizFvB4g9VnHPewCHvGA1kVU3SxBvo1nwNE7va1hg4/XSqtvDJgzmyA==}
     dependencies:
-      '@vue/shared': /@vue-vapor/shared@0.20240209.3
+      '@vue/shared': /@vue-vapor/shared@3.20240209.0
 
-  /@vue-vapor/runtime-core@0.20240209.3:
-    resolution: {integrity: sha512-lXdqX+yqaZbfhVMPTCvnCt4R+eiCyW/IAdcqz7JQuABGILDyNxvDW6a9ErHdCe+4rQMnEp7W1YgUUec3hBUOcg==}
+  /@vue-vapor/runtime-core@3.20240209.0:
+    resolution: {integrity: sha512-LdVaeelxi/zFZy0yNMM+fZwBQHNqp8/q8ObxzgC6epXIIZexQP3/g75QD9UxOcuMayMsNpARP5NMr4Gas+0X1g==}
     dependencies:
-      '@vue/reactivity': /@vue-vapor/reactivity@0.20240209.3
-      '@vue/shared': /@vue-vapor/shared@0.20240209.3
+      '@vue/reactivity': /@vue-vapor/reactivity@3.20240209.0
+      '@vue/shared': /@vue-vapor/shared@3.20240209.0
 
-  /@vue-vapor/runtime-dom@0.20240209.3:
-    resolution: {integrity: sha512-7tn+zqgFfW2ufleH92C+ekGR3+4LXSRB4QaVbId8Zokh2i+wR7wdgmS0mt/1GJkOAzixrqwhHbsowgdwGKSFbw==}
+  /@vue-vapor/runtime-dom@3.20240209.0:
+    resolution: {integrity: sha512-APsBVz8JiS6YSrHRZnyg85JnUsBuUG+NgJwbGRMFOWZqxxq2c8ytEe4Yh//1gi6/AMnO48DbqVRhh+Gjv+03Rw==}
     dependencies:
-      '@vue/runtime-core': /@vue-vapor/runtime-core@0.20240209.3
-      '@vue/shared': /@vue-vapor/shared@0.20240209.3
+      '@vue/runtime-core': /@vue-vapor/runtime-core@3.20240209.0
+      '@vue/shared': /@vue-vapor/shared@3.20240209.0
       csstype: 3.1.3
 
-  /@vue-vapor/runtime-vapor@0.20240209.3:
-    resolution: {integrity: sha512-Pt+JlU/JNdE3xExreMsSBdvcPOcLmqd7xPjLli0IeukRdyCuK+2/EKHZLotI2iY7F7aDVBUGI49k13MF9DSOIQ==}
+  /@vue-vapor/runtime-vapor@3.20240209.0:
+    resolution: {integrity: sha512-xoyCX0Kq+n1q/L25u0ZDElIuYceIvHsS1LW42zv4wZVhWger8zLue5f3DQxcLZIl9bJUKwTo5e5TfoCHVv01Jw==}
     dependencies:
-      '@vue/reactivity': /@vue-vapor/reactivity@0.20240209.3
-      '@vue/shared': /@vue-vapor/shared@0.20240209.3
+      '@vue/reactivity': /@vue-vapor/reactivity@3.20240209.0
+      '@vue/shared': /@vue-vapor/shared@3.20240209.0
 
-  /@vue-vapor/server-renderer@0.20240209.3(@vue-vapor/vue@0.20240209.3):
-    resolution: {integrity: sha512-VxfMQj4kg4w8QEYPBANv0XeYtltflhZe1ePmIIq/X8hBT0Z2LXyclNS6m+f5OaA2EbX/4teusO+MC4z2UbQG5A==}
+  /@vue-vapor/server-renderer@3.20240209.0(@vue-vapor/vue@3.20240209.0):
+    resolution: {integrity: sha512-U7sT1z1OLzHOu+1MQ1hraEKmSvIyYTPnL0tFr+BckM1ahg0yw3uobuKKyJppZa1cAL1u+VnjbetMR3ByzREYAQ==}
     peerDependencies:
-      vue: npm:@vue-vapor/vue@0.20240209.3
+      vue: npm:@vue-vapor/vue@3.20240209.0
     dependencies:
-      '@vue/compiler-ssr': /@vue-vapor/compiler-ssr@0.20240209.3
-      '@vue/shared': /@vue-vapor/shared@0.20240209.3
-      vue: /@vue-vapor/vue@0.20240209.3(@vue-vapor/vue@0.20240209.3)(typescript@5.3.3)
+      '@vue/compiler-ssr': /@vue-vapor/compiler-ssr@3.20240209.0
+      '@vue/shared': /@vue-vapor/shared@3.20240209.0
+      vue: /@vue-vapor/vue@3.20240209.0(@vue-vapor/vue@3.20240209.0)(typescript@5.3.3)
 
-  /@vue-vapor/shared@0.20240209.3:
-    resolution: {integrity: sha512-OQAZMKSWGV3JTrNzXLOh2o9VtjuTtPHDQwoELye46WhfJiDeqQk6R4QmVlK6rT8t6IjLorHg94huLYMxdUoogA==}
+  /@vue-vapor/shared@3.20240209.0:
+    resolution: {integrity: sha512-LZhREcmYsxY2KrBMEgtvrcid/sv8PAlpHm+24nG28KS5lfHIqzM9yabFK5J6VcflFuog7LBAzlSBww3jpKlD0w==}
 
-  /@vue-vapor/vapor@0.20240209.3:
-    resolution: {integrity: sha512-/SppDCZIhT/40hPQ6Vg/Zw0PaMujQYFw36vsPjg+QydDxvNhd1BSNS+8MAIw7xW2qUAMhqZQOIdMRxkrvT8xdw==}
+  /@vue-vapor/vapor@3.20240209.0:
+    resolution: {integrity: sha512-q90bhjgnsfEQtpx8BhIvYIXSXfWvlLhrdrsF89ZpCq9J9CyKfpG4BboPr+UZ82CxNnAsuo9hweh50eSEscMy3A==}
     dependencies:
-      '@vue/compiler-vapor': /@vue-vapor/compiler-vapor@0.20240209.3
-      '@vue/runtime-vapor': /@vue-vapor/runtime-vapor@0.20240209.3
+      '@vue/compiler-vapor': /@vue-vapor/compiler-vapor@3.20240209.0
+      '@vue/runtime-vapor': /@vue-vapor/runtime-vapor@3.20240209.0
 
-  /@vue-vapor/vue@0.20240209.3(@vue-vapor/vue@0.20240209.3)(typescript@5.3.3):
-    resolution: {integrity: sha512-fp0RYcvEjVZz0QEWZc2BK2wm23bjCaSV/MokKGd3I7szONhQ4zaf1z/KZcQfnjskjT8v3FY04+zQfQ/AP9bJZg==}
+  /@vue-vapor/vue@3.20240209.0(@vue-vapor/vue@3.20240209.0)(typescript@5.3.3):
+    resolution: {integrity: sha512-0cN+1YNW7Gkwt27G2h0keLKLnAVAHO9H2AlzAQUjwjGXhgyWBSPJaJ+fE1NHlMEuHyfwkw5qjlEtIh3+uawwdw==}
     peerDependencies:
       typescript: '*'
     peerDependenciesMeta:
       typescript:
         optional: true
     dependencies:
-      '@vue/compiler-dom': /@vue-vapor/compiler-dom@0.20240209.3
-      '@vue/compiler-sfc': /@vue-vapor/compiler-sfc@0.20240209.3
-      '@vue/runtime-dom': /@vue-vapor/runtime-dom@0.20240209.3
-      '@vue/server-renderer': /@vue-vapor/server-renderer@0.20240209.3(@vue-vapor/vue@0.20240209.3)
-      '@vue/shared': /@vue-vapor/shared@0.20240209.3
-      '@vue/vapor': /@vue-vapor/vapor@0.20240209.3
+      '@vue/compiler-dom': /@vue-vapor/compiler-dom@3.20240209.0
+      '@vue/compiler-sfc': /@vue-vapor/compiler-sfc@3.20240209.0
+      '@vue/runtime-dom': /@vue-vapor/runtime-dom@3.20240209.0
+      '@vue/server-renderer': /@vue-vapor/server-renderer@3.20240209.0(@vue-vapor/vue@3.20240209.0)
+      '@vue/shared': /@vue-vapor/shared@3.20240209.0
+      '@vue/vapor': /@vue-vapor/vapor@3.20240209.0
       typescript: 5.3.3
     transitivePeerDependencies:
       - vue
