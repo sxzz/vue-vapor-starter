@@ -1,0 +1,21 @@
+{
+  "name": "vue-vapor-demo",
+  "private": true,
+  "version": "0.0.0",
+  "type": "module",
+  "scripts": {
+    "dev": "vite",
+    "build": "vue-tsc && vite build",
+    "preview": "vite preview"
+  },
+  "dependencies": {
+    "@vue/vapor": "npm:@vue-vapor/vapor@0.20240209.3",
+    "vue": "npm:@vue-vapor/vue@0.20240209.3"
+  },
+  "devDependencies": {
+    "@vitejs/plugin-vue": "^5.0.3",
+    "typescript": "^5.2.2",
+    "vite": "^5.1.0",
+    "vue-tsc": "^1.8.27"
+  }
+}
