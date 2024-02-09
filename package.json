@@ -9,7 +9,6 @@
     "preview": "vite preview"
   },
   "dependencies": {
-    "@vue/vapor": "npm:@vue-vapor/vapor@0.20240209.3",
     "vue": "npm:@vue-vapor/vue@0.20240209.3"
   },
   "devDependencies": {

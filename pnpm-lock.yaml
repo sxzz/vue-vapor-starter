@@ -5,9 +5,6 @@ settings:
   excludeLinksFromLockfile: false
 
 dependencies:
-  '@vue/vapor':
-    specifier: npm:@vue-vapor/vapor@0.20240209.3
-    version: /@vue-vapor/vapor@0.20240209.3
   vue:
     specifier: npm:@vue-vapor/vue@0.20240209.3
     version: /@vue-vapor/vue@0.20240209.3(@vue-vapor/vue@0.20240209.3)(typescript@5.3.3)
