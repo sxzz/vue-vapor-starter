@@ -9,7 +9,7 @@
     "preview": "vite preview"
   },
   "dependencies": {
-    "vue": "npm:@vue-vapor/vue@3.20240209.0"
+    "vue": "npm:@vue-vapor/vue@latest"
   },
   "devDependencies": {
     "@vitejs/plugin-vue": "^5.0.4",
