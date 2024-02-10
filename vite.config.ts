@@ -11,6 +11,9 @@ export default defineConfig({
         comments: false,
       },
     },
+    modulePreload: {
+      polyfill: false,
+    },
   },
   define: {
     'import.meta.env.VAPOR': vapor,
