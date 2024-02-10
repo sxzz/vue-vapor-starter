@@ -6,6 +6,11 @@ const vapor = !process.env.NO_VAPOR
 export default defineConfig({
   build: {
     minify: process.env.NO_MINIFY ? false : 'terser',
+    terserOptions: {
+      format: {
+        comments: false,
+      },
+    },
   },
   define: {
     'import.meta.env.VAPOR': vapor,
