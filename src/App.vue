@@ -1,5 +1,5 @@
 <script setup lang="ts">
-import { computed } from 'vue'
+import { computed, version } from 'vue'
 import { useLocalStorage } from '@vueuse/core'
 
 const vapor = import.meta.env.VAPOR
@@ -78,6 +78,9 @@ function handleRemove(idx: number, task: Task) {
     <button @click="handleClearComplete">Clear completed</button>
     <button @click="handleClearAll">Clear all</button>
   </div>
+  <p>
+    Vue Vapor@<code>{{ version }}</code>
+  </p>
 </template>
 
 <style>
