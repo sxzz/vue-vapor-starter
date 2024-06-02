@@ -14,7 +14,7 @@
     "vue": "npm:@vue-vapor/vue@latest"
   },
   "devDependencies": {
-    "@types/node": "^20.12.12",
+    "@types/node": "^20.14.0",
     "@vitejs/plugin-vue": "npm:@vue-vapor/vite-plugin-vue@latest",
     "terser": "^5.31.0",
     "typescript": "^5.4.5",

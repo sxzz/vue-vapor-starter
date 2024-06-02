@@ -1,8 +1,6 @@
 import { defineConfig } from 'vite'
 import Vue from '@vitejs/plugin-vue'
 
-const vapor = !process.env.NO_VAPOR
-
 export default defineConfig({
   build: {
     minify: process.env.NO_MINIFY ? false : 'terser',
@@ -15,12 +13,6 @@ export default defineConfig({
       polyfill: false,
     },
   },
-  define: {
-    'import.meta.env.VAPOR': vapor,
-  },
-  plugins: [
-    Vue({
-      vapor,
-    }),
-  ],
+
+  plugins: [Vue()],
 })

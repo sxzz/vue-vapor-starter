@@ -1,8 +1,6 @@
-<script setup lang="ts">
+<script setup lang="ts" vapor>
 import { computed, version } from 'vue'
 import { useLocalStorage } from '@vueuse/core'
-
-const vapor = import.meta.env.VAPOR
 
 interface Task {
   title: string
@@ -36,29 +34,30 @@ function handleClearAll() {
   tasks.value = []
 }
 
-function handleRemove(idx: number, task: Task) {
-  console.log(task)
+function handleRemove(idx: number) {
   tasks.value.splice(idx, 1)
 }
 </script>
 
 <template>
   <h1>todos</h1>
-  <h2>Hello, Vue <span :class="{ del: !vapor }">Vapor</span>!</h2>
+  <h2>Hello, Vue Vapor!</h2>
 
   <ul>
     <li
-      v-for="(task, index) of tasks"
+      v-for="({ title, completed }, index) of tasks"
       :key="index"
-      :class="{ del: task.completed }"
+      :class="{ del: completed }"
     >
-      <input
-        type="checkbox"
-        :checked="task.completed"
-        @change="handleComplete(index, $event)"
-      />
-      {{ task.title }}
-      <button @click="handleRemove(index, task)">x</button>
+      <label>
+        <input
+          type="checkbox"
+          :checked="completed"
+          @change="handleComplete(index, $event)"
+        />
+        {{ title }}
+      </label>
+      <button @click="handleRemove(index)">x</button>
     </li>
   </ul>
 
