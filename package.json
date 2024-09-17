@@ -10,15 +10,15 @@
     "preview": "vite preview"
   },
   "dependencies": {
-    "@vueuse/core": "^11.0.1",
-    "vue": "https://pkg.pr.new/vuejs/core-vapor/vue@main"
+    "@vueuse/core": "^11.1.0",
+    "vue": "https://pkg.pr.new/vuejs/core-vapor/vue@ced7ee6"
   },
   "devDependencies": {
-    "@types/node": "^22.5.0",
-    "@vitejs/plugin-vue": "npm:@vue-vapor/vite-plugin-vue@latest",
-    "terser": "^5.31.6",
-    "typescript": "^5.5.4",
-    "vite": "^5.4.2",
-    "vue-tsc": "^2.0.29"
+    "@types/node": "^22.5.5",
+    "@vitejs/plugin-vue": "https://pkg.pr.new/@vitejs/plugin-vue@vapor",
+    "terser": "^5.32.0",
+    "typescript": "^5.6.2",
+    "vite": "^5.4.6",
+    "vue-tsc": "^2.1.6"
   }
 }
