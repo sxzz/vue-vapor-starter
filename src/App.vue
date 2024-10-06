@@ -45,17 +45,17 @@ function handleRemove(idx: number) {
 
   <ul>
     <li
-      v-for="({ title, completed }, index) of tasks"
+      v-for="(task, index) of tasks"
       :key="index"
-      :class="{ del: completed }"
+      :class="{ del: task.completed }"
     >
       <label>
         <input
           type="checkbox"
-          :checked="completed"
+          :checked="task.completed"
           @change="handleComplete(index, $event)"
         />
-        {{ title }}
+        {{ task.title }}
       </label>
       <button @click="handleRemove(index)">x</button>
     </li>
@@ -69,7 +69,8 @@ function handleRemove(idx: number) {
   <div style="display: flex; gap: 8px">
     <input
       type="text"
-      v-model="value"
+      :value="value"
+      @input="value = $event.target.value"
       @keydown.enter="handleAdd"
       placeholder="What need to be done?"
     />

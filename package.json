@@ -11,7 +11,7 @@
   },
   "dependencies": {
     "@vueuse/core": "^11.1.0",
-    "vue": "https://pkg.pr.new/vuejs/core-vapor/vue@ced7ee6"
+    "vue": "https://pkg.pr.new/vuejs/vue-vapor/vue@3fa4069"
   },
   "devDependencies": {
     "@types/node": "^22.5.5",
